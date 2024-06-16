@@ -30,9 +30,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094688984345886347}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.020000001, z: 0.33333334}
+  m_LocalScale: {x: 0.033333335, y: 0.033333335, z: 0.033333335}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -150,7 +150,7 @@ MonoBehaviour:
   speed: 10
   impactEffect: {fileID: 1141330259687333427, guid: 6718dc24203da53468af9ada8fef7d6d,
     type: 3}
-  damageAmount: 10
+  damage: 10
 --- !u!96 &1466600456393757788
 TrailRenderer:
   serializedVersion: 3
@@ -202,8 +202,8 @@ TrailRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.3338623
-        value: 0.4128437
+        time: 0.204216
+        value: 0.7764759
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -247,7 +247,7 @@ TrailRenderer:
     numCapVertices: 0
     alignment: 0
     textureMode: 0
-    textureScale: {x: 0.2, y: 0.2}
+    textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
   m_MinVertexDistance: 0.1
