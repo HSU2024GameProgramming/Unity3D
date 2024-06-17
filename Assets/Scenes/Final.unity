@@ -1149,6 +1149,11 @@ PrefabInstance:
       propertyPath: damage
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8226977488236476870, guid: 989f4eb0da49c0b45a2d4f21fa3f8c54,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8790762524611944099, guid: 989f4eb0da49c0b45a2d4f21fa3f8c54,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1213,6 +1218,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8901100054669623491, guid: 989f4eb0da49c0b45a2d4f21fa3f8c54,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
